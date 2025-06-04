@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main-page,
+.main-page * {
+  box-sizing: border-box;
+}
+.main-page {
+  height: 1200px;
+  position: relative;
+}
+.rectangle-130 {
+  background: #f2f2fa;
+  width: 1920px;
+  height: 1200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.contents {
+  width: 210px;
+  height: 440px;
+  position: absolute;
+  left: 60px;
+  top: 357px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 0px;
+}
+.div2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 266px;
+}
+.div3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 352px;
+}
+.div4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 411px;
+}
+.ellipse-102 {
+  background: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.ellipse-103 {
+  background: #000000;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px;
+  top: 103px;
+}
+.ellipse-104 {
+  background: #000000;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px;
+  top: 192px;
+}
+.ellipse-105 {
+  background: #000000;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px;
+  top: 320px;
+}
+.ellipse-106 {
+  background: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 274px;
+}
+.ellipse-107 {
+  background: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 355px;
+}
+.ellipse-108 {
+  background: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 416px;
+}
+.header {
+  width: 1920px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.link-svg {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 372px;
+  top: calc(50% - 579px);
+  overflow: visible;
+}
+.link {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 1452px;
+  top: calc(50% - 584px);
+}
+.frame {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+.link2 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 1504px;
+  top: calc(50% - 584px);
+}
+.frame2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+.nav-tablist {
+  width: 412px;
+  height: 44px;
+  position: absolute;
+  left: 754px;
+  top: 16px;
+}
+.tab {
+  width: 52.44px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.women {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.1484375px;
+  line-height: 20.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 52.64px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tab2 {
+  width: 44px;
+  position: absolute;
+  left: 128.28px;
+  bottom: 0px;
+  top: 0px;
+}
+.men {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.1484375px;
+  line-height: 20.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 7.28px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 29.64px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tab3 {
+  width: 44px;
+  position: absolute;
+  left: 248.13px;
+  bottom: 0px;
+  top: 0px;
+}
+.kids {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.015625px;
+  line-height: 20.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 7.04px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 30.11px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tab4 {
+  width: 44px;
+  position: absolute;
+  left: 367.97px;
+  bottom: 0px;
+  top: 0px;
+}
+.baby {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.8125px;
+  line-height: 20.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 3.5px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 37.2px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.horizontal-divider {
+  background: #ffffff;
+  width: 52px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.6);
+}
+.button {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 715px;
+  top: calc(50% - -527px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.button2 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 32px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: calc(50% - 42px);
+  top: 1119px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame4 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.navigation {
+  background: rgba(0, 0, 0, 0.85);
+  width: 200px;
+  height: 63px;
+  position: absolute;
+  left: 850px;
+  top: 1044px;
+}
+.div5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  width: 131.65px;
+  height: 34.5px;
+}
+.border {
+  border-style: solid;
+  border-color: radial-gradient(
+    closest-side,
+    rgba(0, 0, 0, 0.85) 99.99998807907104%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-width: 8px 6px 0px 6px;
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  left: 94px;
+  bottom: -8px;
+}
+.button-navigation {
+  width: 44px;
+  height: 34px;
+  position: absolute;
+  left: 156px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.frame5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  overflow: visible;
+}
+.button3 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 1137px;
+  top: calc(50% - -527px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame6 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.frame-17 {
+  width: 173px;
+  height: 52px;
+  position: absolute;
+  left: 50px;
+  top: 235px;
+}
+.women2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 173px;
+  height: 52px;
+}
+.vector {
+  width: 10.4%;
+  height: 17.31%;
+  position: absolute;
+  right: 21.39%;
+  left: 68.21%;
+  bottom: 63.46%;
+  top: 19.23%;
+  overflow: visible;
+}
+.frame7 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: calc(50% - -603px);
+  top: calc(50% - 577px);
+  overflow: visible;
+}
+.rectangle-135 {
+  background: #d9d9d9;
+  width: 126px;
+  height: 166px;
+  position: absolute;
+  left: 993px;
+  top: 210px;
+}
+.rectangle-137 {
+  width: 125px;
+  height: 167px;
+  position: absolute;
+  left: 1136px;
+  top: 554px;
+  overflow: visible;
+}
+.rectangle-138 {
+  background: #d9d9d9;
+  width: 126px;
+  height: 166px;
+  position: absolute;
+  left: 1367px;
+  top: 699px;
+}
+.rectangle-139 {
+  background: #d9d9d9;
+  width: 125px;
+  height: 166px;
+  position: absolute;
+  left: 1128px;
+  top: 841px;
+}
+._2025 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 607px;
+  top: 332px;
+}
+.div6 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1107.69px;
+  top: 461.67px;
+  transform-origin: 0 0;
+  transform: rotate(-30.71deg) scale(1, 1);
+}
+.ss {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 590px;
+  top: 401px;
+}
+.div7 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 563px;
+  top: 470px;
+}
+.image-14 {
+  width: 349px;
+  height: 461px;
+  position: absolute;
+  left: 477px;
+  top: 514px;
+  object-fit: cover;
+  aspect-ratio: 349/461;
+}
+.ellipse-133 {
+  background: #000000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 950px;
+  top: 299px;
+}
+.ellipse-134 {
+  background: #000000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1261px;
+  top: 394px;
+}
+.ellipse-135 {
+  background: #000000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1094px;
+  top: 646px;
+}
+.ellipse-136 {
+  background: #000000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1319px;
+  top: 764px;
+}
+.ellipse-137 {
+  background: #000000;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1073px;
+  top: 913px;
+}
+.line-5 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 285.33px;
+  height: 0px;
+  position: absolute;
+  left: 815px;
+  top: 586px;
+  transform-origin: 0 0;
+  transform: rotate(-62.896deg) scale(1, 1);
+}
+.line-6 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 488.58px;
+  height: 0px;
+  position: absolute;
+  left: 815px;
+  top: 663px;
+  transform-origin: 0 0;
+  transform: rotate(-29.556deg) scale(1, 1);
+}
+.line-7 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 269.25px;
+  height: 0px;
+  position: absolute;
+  left: 815px;
+  top: 740px;
+  transform-origin: 0 0;
+  transform: rotate(-16.618deg) scale(1, 1);
+}
+.line-8 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 479.14px;
+  height: 0px;
+  position: absolute;
+  left: 815px;
+  top: 808px;
+  transform-origin: 0 0;
+  transform: rotate(-3.949deg) scale(1, 1);
+}
+.line-9 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 229.71px;
+  height: 0px;
+  position: absolute;
+  left: 815px;
+  top: 865px;
+  transform-origin: 0 0;
+  transform: rotate(14.883deg) scale(1, 1);
+}
+.afterhover {
+  width: 417px;
+  height: 264px;
+  position: absolute;
+  left: 1318px;
+  top: 262px;
+}
+.rectangle-136 {
+  background: #d9d9d9;
+  width: 200px;
+  height: 264px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div8 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 243px;
+  top: 68px;
+}
+._29-900 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  position: absolute;
+  left: 243px;
+  top: 95px;
+}
+.ellipse-138 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  left: 243px;
+  top: 160px;
+}
+.ellipse-139 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  left: 305px;
+  top: 160px;
+}
+.frame8 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 393px;
+  top: calc(50% - 40px);
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
+
+</style>
+<body>
+    <div class="main-page">
+  <div class="rectangle-130"></div>
+  <div class="contents">
+    <div class="div">새 시즌</div>
+    <div class="div2">가격 인하 상품</div>
+    <div class="div3">가격 인하 상품</div>
+    <div class="div4">가격 인하 상품</div>
+    <div class="ellipse-102"></div>
+    <div class="ellipse-103"></div>
+    <div class="ellipse-104"></div>
+    <div class="ellipse-105"></div>
+    <div class="ellipse-106"></div>
+    <div class="ellipse-107"></div>
+    <div class="ellipse-108"></div>
+  </div>
+  <div class="header"></div>
+  <img class="link-svg" src="link-svg0.svg" />
+  <div class="link">
+    <img class="frame" src="frame0.svg" />
+  </div>
+  <div class="link2">
+    <img class="frame2" src="frame1.svg" />
+  </div>
+  <div class="nav-tablist">
+    <div class="tab">
+      <div class="women">women</div>
+    </div>
+    <div class="tab2">
+      <div class="men">men</div>
+    </div>
+    <div class="tab3">
+      <div class="kids">kids</div>
+    </div>
+    <div class="tab4">
+      <div class="baby">baby</div>
+    </div>
+    <div class="horizontal-divider"></div>
+  </div>
+  <div class="button">
+    <img class="frame3" src="frame2.svg" />
+  </div>
+  <div class="button2">
+    <img class="frame4" src="frame3.svg" />
+  </div>
+  <div class="navigation">
+    <div class="div5">
+      검색 및 제품 카테고리
+      <br />
+      를 확인할 수 있습니다.
+    </div>
+    <div class="border"></div>
+    <div class="button-navigation">
+      <img class="frame5" src="frame4.svg" />
+    </div>
+  </div>
+  <div class="button3">
+    <img class="frame6" src="frame5.svg" />
+  </div>
+  <div class="frame-17">
+    <div class="women2">WOMEN</div>
+    <img class="vector" src="vector0.svg" />
+  </div>
+  <img class="frame7" src="frame6.svg" />
+  <div class="rectangle-135"></div>
+  <img class="rectangle-137" src="rectangle-1370.svg" />
+  <div class="rectangle-138"></div>
+  <div class="rectangle-139"></div>
+  <div class="_2025">2025</div>
+  <div class="div6">배럴 레그 팬츠</div>
+  <div class="ss">SS 시즌</div>
+  <div class="div7">신상품 보기</div>
+  <img class="image-14" src="image-140.png" />
+  <div class="ellipse-133"></div>
+  <div class="ellipse-134"></div>
+  <div class="ellipse-135"></div>
+  <div class="ellipse-136"></div>
+  <div class="ellipse-137"></div>
+  <div class="line-5"></div>
+  <div class="line-6"></div>
+  <div class="line-7"></div>
+  <div class="line-8"></div>
+  <div class="line-9"></div>
+  <div class="afterhover">
+    <div class="rectangle-136"></div>
+    <div class="div8">시어서커이지팬츠</div>
+    <div class="_29-900">29,900원</div>
+    <div class="ellipse-138"></div>
+    <div class="ellipse-139"></div>
+    <img class="frame8" src="frame7.svg" />
+  </div>
+</div>
+
+</body>
+</html>
