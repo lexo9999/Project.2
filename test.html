@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>옵션 선택 버튼</title>
+  <style>
+
+    /* 옵션 선택 버튼
+    
+    
+    
+    */
+    .option-select-button,
+.option-select-button * {
+  box-sizing: border-box;
+}
+.option-select-button {
+  width: 100px;
+  height: 36.7px;
+  position: relative;
+}
+.rectangle-175 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  width: 100px;
+  height: 36.7px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 10.25px;
+  width: 50px;
+  height: 15px;
+}
+.option-selct-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 11.83px;
+  top: 9.25px;
+  overflow: visible;
+}
+
+/* 옵션 선택 버튼 2 */
+
+
+.option-select-button-after,
+.option-select-button-after * {
+  box-sizing: border-box;
+}
+.option-select-button-after {
+  width: 100px;
+  height: 36px;
+  position: relative;
+}
+.rectangle-174 {
+  background: #000000;
+  border-radius: 100px;
+  width: 100px;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-30 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  overflow: visible;
+}
+.div {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 10px;
+  width: 50px;
+  height: 15px;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+옵션 선택 버튼 선택 이후*/
+
+.option-select-open,
+.option-select-open * {
+  box-sizing: border-box;
+}
+.option-select-open {
+  height: 198px;
+  position: relative;
+}
+.rectangle-176 {
+  background: #f4f4f4;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  width: 376px;
+  height: 198px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.option-select-size-list {
+  width: 307px;
+  height: 31px;
+  position: absolute;
+  left: 37px;
+  top: 124px;
+}
+.item-label {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.xs {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10.609375px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 13.68px;
+  height: 14px;
+}
+.item-label2 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 46px;
+  top: 0px;
+}
+.s {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.578125px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 6.81px;
+  height: 14px;
+}
+.item-label3 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 92px;
+  top: 0px;
+}
+.m {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.140625px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 8.89px;
+  height: 14px;
+}
+.item-label4 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 138px;
+  top: 0px;
+}
+.l {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 7.86px;
+  height: 14px;
+}
+.item-label5 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 184px;
+  top: 0px;
+}
+.xl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12.140625px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 14.73px;
+  height: 14px;
+}
+.item-label6 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 230px;
+  top: 0px;
+}
+.xxl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11.703125px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 21.61px;
+  height: 14px;
+}
+.item-label7 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 276px;
+  top: 0px;
+}
+._3-xl {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11.484375px;
+  line-height: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 8px;
+  width: 21.2px;
+  height: 14px;
+}
+.option-select-select-all {
+  width: 52px;
+  height: 20px;
+  position: absolute;
+  left: 250px;
+  top: 164px;
+}
+.div {
+  color: #6a6a6a;
+  text-align: right;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  width: 42px;
+  height: 15px;
+}
+.option-select-done {
+  width: 36px;
+  height: 20px;
+  position: absolute;
+  left: 309px;
+  top: 164px;
+}
+.rectangle-173 {
+  background: #000000;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 36px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div2 {
+  color: #ffffff;
+  text-align: right;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 7px;
+  top: 1px;
+  width: 20px;
+  height: 15px;
+}
+.option-select-close-icon {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  overflow: visible;
+}
+.div3 {
+  color: #6a6a6a;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 38px;
+  width: 85.93px;
+  height: 15px;
+}
+.div4 {
+  color: #6a6a6a;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 18.2px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 98px;
+  width: 112.14px;
+  height: 15px;
+}
+.div5 {
+  color: #000000;
+  text-align: left;
+  font-family: "PretendardVariable-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 12px;
+  width: 50px;
+  height: 15px;
+}
+.option-select-color {
+  width: 165px;
+  height: 25px;
+  position: absolute;
+  left: 37px;
+  top: 60px;
+}
+.ellipse-57 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-58 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 35px;
+  top: 0px;
+}
+.ellipse-59 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 70px;
+  top: 0px;
+}
+.ellipse-60 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 105px;
+  top: 0px;
+}
+.ellipse-61 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 140px;
+  top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ...existing code... */
+    .selected-size {
+  border-color: #000 !important;
+  border-width: 2px !important;
+  border-style: solid !important; /* 추가 */
+}
+    /* ...existing code... */
+  </style>
+</head>
+<body>
+<!-- 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+내용용-->
+
+<div class="option-select-button" style="display:block">
+    <div class="rectangle-175">
+        <div class="div">옵션 선택</div>
+        <img class="option-selct-icon" src="test ima/optionSelct_icon.png" />
+    </div>
+</div>
+
+<div class="option-select-button-after" style="display:none">
+  <div class="rectangle-174"></div>
+  <img class="frame-30" src="test ima/Frame 30.png" />
+  <div class="div">옵션 선택</div>
+</div>
+
+
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+옵션 선택 -->
+<div class="option-select-open" style="display:none">
+    <div class="rectangle-176">
+        <div class="option-select-size-list">
+            <div class="item-label">
+                <div class="xs">XS</div>
+            </div>
+            <div class="item-label2">
+                <div class="s">S</div>
+            </div>
+            <div class="item-label3">
+                <div class="m">M</div>
+            </div>
+            <div class="item-label4">
+                <div class="l">L</div>
+            </div>
+            <div class="item-label5">
+                <div class="xl">XL</div>
+            </div>
+            <div class="item-label6">
+                <div class="xxl">XXL</div>
+            </div>
+            <div class="item-label7">
+                <div class="_3-xl">3XL</div>
+            </div>
+        </div>
+        <div class="option-select-select-all">
+            <div class="div">모두 선택</div>
+        </div>
+        <div class="option-select-done">
+            <div class="rectangle-173"></div>
+            <div class="div2">완료</div>
+        </div>
+        <img class="option-select-close-icon" src="test ima/close01.png" />
+            <div class="div3">컬러</div>
+            <div class="div4">사이즈</div>
+            <div class="div5">옵션 선택</div>
+            <div class="option-select-color">
+            <div class="ellipse-57"></div>
+            <div class="ellipse-58"></div>
+            <div class="ellipse-59"></div>
+            <div class="ellipse-60"></div>
+            <div class="ellipse-61"></div>
+        </div>
+    </div>
+</div>
+
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+스크립트트-->
+
+<script>
+  // 사이즈/컬러 선택 토글
+  document.querySelectorAll(
+    '.option-select-size-list > div,' +
+    '.ellipse-57, .ellipse-58, .ellipse-59, .ellipse-60, .ellipse-61'
+  ).forEach(function(el) {
+    el.addEventListener('click', function() {
+      el.classList.toggle('selected-size');
+    });
+  });
+
+  // 모두 선택/모두 취소 토글
+  const selectAllDiv = document.querySelector('.option-select-select-all .div');
+  let isAllSelected = false;
+  selectAllDiv.addEventListener('click', function() {
+    const targets = document.querySelectorAll(
+      '.option-select-size-list > div, .ellipse-57, .ellipse-58, .ellipse-59, .ellipse-60, .ellipse-61'
+    );
+    if (!isAllSelected) {
+      targets.forEach(function(el) {
+        el.classList.add('selected-size');
+      });
+      selectAllDiv.textContent = '모두 취소';
+      isAllSelected = true;
+    } else {
+      targets.forEach(function(el) {
+        el.classList.remove('selected-size');
+      });
+      selectAllDiv.textContent = '모두 선택';
+      isAllSelected = false;
+    }
+  });
+
+  // 상태 전환 관련 요소
+  const optionSelectButton = document.querySelector('.option-select-button');
+  const optionSelectOpen = document.querySelector('.option-select-open');
+  const optionSelectButtonAfter = document.querySelector('.option-select-button-after');
+  const doneButton = document.querySelector('.option-select-done .div2');
+  const closeIcon = document.querySelector('.option-select-close-icon');
+  const frame30 = document.querySelector('.option-select-button-after .frame-30');
+
+  // 상태 전환 함수
+  function showOnly(box) {
+    optionSelectButton.style.display = 'none';
+    optionSelectOpen.style.display = 'none';
+    optionSelectButtonAfter.style.display = 'none';
+    box.style.display = 'block';
+  }
+
+  // 초기 상태
+  showOnly(optionSelectButton);
+
+  // 옵션 선택 버튼 클릭 → 옵션 선택 상자 열기
+  optionSelectButton.addEventListener('click', function(e) {
+    showOnly(optionSelectOpen);
+    e.stopPropagation();
+  });
+
+  // 완료 버튼 클릭 → option-select-button-after로
+  doneButton.addEventListener('click', function(e) {
+    showOnly(optionSelectButtonAfter);
+    e.stopPropagation();
+  });
+
+  // 닫기 아이콘 클릭 → option-select-button으로
+  closeIcon.addEventListener('click', function(e) {
+    showOnly(optionSelectButton);
+    e.stopPropagation();
+  });
+
+  // option-select-open 바깥 클릭 → option-select-button으로
+  document.addEventListener('mousedown', function(e) {
+    if (
+      optionSelectOpen.style.display === 'block' &&
+      !optionSelectOpen.contains(e.target) &&
+      !optionSelectButton.contains(e.target) &&
+      !optionSelectButtonAfter.contains(e.target)
+    ) {
+      showOnly(optionSelectButton);
+    }
+  });
+
+  // option-select-button-after의 frame-30 클릭 → option-select-button으로
+  frame30.addEventListener('click', function(e) {
+    showOnly(optionSelectButton);
+    e.stopPropagation();
+  });
+
+  // option-select-button-after의 나머지 부분 클릭 → option-select-open으로 (frame-30 제외)
+  optionSelectButtonAfter.addEventListener('click', function(e) {
+    if (e.target === frame30) return;
+    showOnly(optionSelectOpen);
+    e.stopPropagation();
+  });
+
+  // 드롭다운(기존 코드, 필요시 유지)
+  function toggleDropdown() {
+    const dropdown = document.getElementById("dropdownOptions");
+    dropdown.classList.toggle("show");
+  }
+  function selectOption(option) {
+    document.querySelector(".dropdown-button").textContent = option;
+    document.getElementById("dropdownOptions").classList.remove("show");
+  }
+  window.addEventListener("click", function(e) {
+    if (!e.target.matches('.dropdown-button')) {
+      const dropdown = document.getElementById("dropdownOptions");
+      if (dropdown && dropdown.classList.contains("show")) {
+        dropdown.classList.remove("show");
+      }
+    }
+  });
+
+
+  
+</script>
+
+
+
+</body>
+</html>

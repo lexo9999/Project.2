@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <style>
-    .main-page,
+  .main {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #f2f2fa;
+  }
+  .main-page,
 .main-page * {
   box-sizing: border-box;
 }
@@ -21,116 +27,6 @@
   position: absolute;
   left: 0px;
   top: 0px;
-}
-.contents {
-  width: 210px;
-  height: 440px;
-  position: absolute;
-  left: 60px;
-  top: 357px;
-}
-.div {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 64px;
-  top: 0px;
-}
-.div2 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 64px;
-  top: 266px;
-}
-.div3 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 64px;
-  top: 352px;
-}
-.div4 {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 64px;
-  top: 411px;
-}
-.ellipse-102 {
-  background: #000000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 0px;
-  top: 4px;
-}
-.ellipse-103 {
-  background: #000000;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 5px;
-  top: 103px;
-}
-.ellipse-104 {
-  background: #000000;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 5px;
-  top: 192px;
-}
-.ellipse-105 {
-  background: #000000;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 5px;
-  top: 320px;
-}
-.ellipse-106 {
-  background: #000000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 0px;
-  top: 274px;
-}
-.ellipse-107 {
-  background: #000000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 0px;
-  top: 355px;
-}
-.ellipse-108 {
-  background: #000000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 0px;
-  top: 416px;
 }
 .header {
   width: 1920px;
@@ -293,135 +189,141 @@
   bottom: 0px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.6);
 }
-.button {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 24px;
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  left: 715px;
-  top: calc(50% - -527px);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.5px);
-}
-.frame3 {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  translate: -50% -50%;
-  top: 50%;
-  overflow: visible;
-}
-.button2 {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 32px;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  left: calc(50% - 42px);
-  top: 1119px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.5px);
-}
-.frame4 {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  left: 50%;
-  translate: -50% -50%;
-  top: 50%;
-  overflow: visible;
-}
-.navigation {
-  background: rgba(0, 0, 0, 0.85);
-  width: 200px;
-  height: 63px;
-  position: absolute;
-  left: 850px;
-  top: 1044px;
-}
-.div5 {
-  color: #ffffff;
-  text-align: left;
-  font-family: "MsPGothic-Regular", sans-serif;
-  font-size: 13px;
-  line-height: 19.5px;
-  font-weight: 400;
-  position: absolute;
-  left: 16px;
-  top: 14px;
-  width: 131.65px;
-  height: 34.5px;
-}
-.border {
-  border-style: solid;
-  border-color: radial-gradient(
-    closest-side,
-    rgba(0, 0, 0, 0.85) 99.99998807907104%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  border-width: 8px 6px 0px 6px;
-  width: 12px;
-  height: 8px;
-  position: absolute;
-  left: 94px;
-  bottom: -8px;
-}
-.button-navigation {
-  width: 44px;
-  height: 34px;
-  position: absolute;
-  left: 156px;
-  top: 50%;
-  translate: 0 -50%;
-}
-.frame5 {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  overflow: visible;
-}
-.button3 {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 24px;
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  left: 1137px;
-  top: calc(50% - -527px);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.5px);
-}
-.frame6 {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  translate: -50% -50%;
-  top: 50%;
-  overflow: visible;
-}
-.frame-17 {
-  width: 173px;
-  height: 52px;
+.frame-31 {
+  width: 137.79px;
+  height: 352px;
   position: absolute;
   left: 50px;
-  top: 235px;
+  top: 445px;
+}
+.contents {
+  width: 131.53px;
+  height: 275.59px;
+  position: absolute;
+  left: 6.26px;
+  top: 76.41px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15.03203296661377px;
+  font-weight: 400;
+  position: absolute;
+  left: 40.09px;
+  top: 0px;
+}
+.div2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15.03203296661377px;
+  font-weight: 400;
+  position: absolute;
+  left: 40.09px;
+  top: 166.61px;
+}
+.div3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15.03203296661377px;
+  font-weight: 400;
+  position: absolute;
+  left: 40.09px;
+  top: 220.47px;
+}
+.div4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15.03203296661377px;
+  font-weight: 400;
+  position: absolute;
+  left: 40.09px;
+  top: 257.42px;
+}
+.ellipse-102 {
+  background: #000000;
+  border-radius: 50%;
+  width: 12.53px;
+  height: 12.53px;
+  position: absolute;
+  left: 0px;
+  top: 2.51px;
+}
+.ellipse-103 {
+  background: #000000;
+  border-radius: 50%;
+  width: 6.26px;
+  height: 6.26px;
+  position: absolute;
+  left: 3.13px;
+  top: 64.51px;
+}
+.ellipse-104 {
+  background: #000000;
+  border-radius: 50%;
+  width: 6.26px;
+  height: 6.26px;
+  position: absolute;
+  left: 3.13px;
+  top: 120.26px;
+}
+.ellipse-105 {
+  background: #000000;
+  border-radius: 50%;
+  width: 6.26px;
+  height: 6.26px;
+  position: absolute;
+  left: 3.13px;
+  top: 200.43px;
+}
+.ellipse-106 {
+  background: #000000;
+  border-radius: 50%;
+  width: 12.53px;
+  height: 12.53px;
+  position: absolute;
+  left: 0px;
+  top: 171.62px;
+}
+.ellipse-107 {
+  background: #000000;
+  border-radius: 50%;
+  width: 12.53px;
+  height: 12.53px;
+  position: absolute;
+  left: 0px;
+  top: 222.35px;
+}
+.ellipse-108 {
+  background: #000000;
+  border-radius: 50%;
+  width: 12.53px;
+  height: 12.53px;
+  position: absolute;
+  left: 0px;
+  top: 260.56px;
+}
+.frame-17 {
+  width: 108.36px;
+  height: 32.57px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .women2 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
+  font-size: 15.03203296661377px;
   font-weight: 400;
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 173px;
-  height: 52px;
+  width: 108.36px;
+  height: 32.57px;
 }
 .vector {
   width: 10.4%;
@@ -433,7 +335,7 @@
   top: 19.23%;
   overflow: visible;
 }
-.frame7 {
+.frame3 {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -473,17 +375,7 @@
   left: 1128px;
   top: 841px;
 }
-._2025 {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  position: absolute;
-  left: 607px;
-  top: 332px;
-}
-.div6 {
+.div5 {
   color: #000000;
   text-align: center;
   font-family: "Inter-Regular", sans-serif;
@@ -495,34 +387,42 @@
   transform-origin: 0 0;
   transform: rotate(-30.71deg) scale(1, 1);
 }
+.frame-33 {
+  width: 167px;
+  height: 132px;
+  position: absolute;
+  left: 449px;
+  top: 357px;
+}
+._2025 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 31.909090042114258px;
+  font-weight: 300;
+  position: absolute;
+  left: 43.84px;
+  top: 0px;
+}
 .ss {
   color: #000000;
   text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 41.065673828125px;
+  font-weight: 500;
   position: absolute;
-  left: 590px;
-  top: 401px;
+  left: 12.84px;
+  top: 39.28px;
 }
-.div7 {
+.div6 {
   color: #000000;
   text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 34.36363983154297px;
+  font-weight: 600;
   position: absolute;
-  left: 563px;
-  top: 470px;
-}
-.image-14 {
-  width: 349px;
-  height: 461px;
-  position: absolute;
-  left: 477px;
-  top: 514px;
-  object-fit: cover;
-  aspect-ratio: 349/461;
+  left: 0px;
+  top: 90px;
 }
 .ellipse-133 {
   background: #000000;
@@ -574,65 +474,65 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 285.33px;
+  width: 330.49px;
   height: 0px;
   position: absolute;
-  left: 815px;
-  top: 586px;
+  left: 730px;
+  top: 583px;
   transform-origin: 0 0;
-  transform: rotate(-62.896deg) scale(1, 1);
+  transform: rotate(-49.418deg) scale(1, 1);
 }
 .line-6 {
   margin-top: -1px;
   border-style: solid;
   border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 488.58px;
+  width: 590.93px;
   height: 0px;
   position: absolute;
-  left: 815px;
-  top: 663px;
+  left: 724px;
+  top: 710px;
   transform-origin: 0 0;
-  transform: rotate(-29.556deg) scale(1, 1);
+  transform: rotate(-29.168deg) scale(1, 1);
 }
 .line-7 {
   margin-top: -1px;
   border-style: solid;
   border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 269.25px;
+  width: 373.48px;
   height: 0px;
   position: absolute;
-  left: 815px;
-  top: 740px;
+  left: 724px;
+  top: 796px;
   transform-origin: 0 0;
-  transform: rotate(-16.618deg) scale(1, 1);
+  transform: rotate(-20.861deg) scale(1, 1);
 }
 .line-8 {
   margin-top: -1px;
   border-style: solid;
   border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 479.14px;
+  width: 566.86px;
   height: 0px;
   position: absolute;
-  left: 815px;
-  top: 808px;
+  left: 730px;
+  top: 841px;
   transform-origin: 0 0;
-  transform: rotate(-3.949deg) scale(1, 1);
+  transform: rotate(-6.686deg) scale(1, 1);
 }
 .line-9 {
   margin-top: -1px;
   border-style: solid;
   border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 229.71px;
+  width: 309.22px;
   height: 0px;
   position: absolute;
-  left: 815px;
-  top: 865px;
+  left: 730px;
+  top: 887px;
   transform-origin: 0 0;
-  transform: rotate(14.883deg) scale(1, 1);
+  transform: rotate(6.872deg) scale(1, 1);
 }
 .afterhover {
   width: 417px;
@@ -640,6 +540,13 @@
   position: absolute;
   left: 1318px;
   top: 262px;
+}
+.frame-35 {
+  width: 417px;
+  height: 264px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .rectangle-136 {
   background: #d9d9d9;
@@ -649,15 +556,22 @@
   left: 0px;
   top: 0px;
 }
-.div8 {
+.frame-34 {
+  width: 174px;
+  height: 125px;
+  position: absolute;
+  left: 243px;
+  top: 68px;
+}
+.div7 {
   color: #000000;
   text-align: center;
   font-family: "Inter-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
   position: absolute;
-  left: 243px;
-  top: 68px;
+  left: 0px;
+  top: 0px;
 }
 ._29-900 {
   color: #000000;
@@ -666,40 +580,194 @@
   font-size: 35px;
   font-weight: 400;
   position: absolute;
-  left: 243px;
-  top: 95px;
+  left: 0px;
+  top: 27px;
 }
 .ellipse-138 {
   background: #d9d9d9;
   border-radius: 50%;
-  width: 37px;
-  height: 37px;
+  width: 33px;
+  height: 33px;
   position: absolute;
-  left: 243px;
-  top: 160px;
+  left: 0px;
+  top: 92px;
+}
+.ellipse-140 {
+  background: #575757;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  left: 88px;
+  top: 92px;
 }
 .ellipse-139 {
-  background: #d9d9d9;
+  background: #a9a9a9;
   border-radius: 50%;
-  width: 37px;
-  height: 37px;
+  width: 33px;
+  height: 33px;
   position: absolute;
-  left: 305px;
-  top: 160px;
+  left: 44px;
+  top: 92px;
 }
-.frame8 {
+.ellipse-141 {
+  background: #68796d;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  left: 132px;
+  top: 92px;
+}
+.frame4 {
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 393px;
-  top: calc(50% - 40px);
+  left: 150px;
+  top: calc(50% - 38.5px);
   transform: translate(0px, -24px);
+  overflow: visible;
+}
+.frame-32 {
+  width: 449px;
+  height: 787px;
+  position: absolute;
+  left: 290px;
+  top: 540px;
+}
+.group-18 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.rectangle-193 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 250, 0) 0%,
+    rgba(242, 242, 250, 1) 100%
+  );
+  width: 1920px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 1079px;
+}
+.button {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 715px;
+  top: calc(50% - -527px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame5 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.button2 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 32px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: calc(50% - 42px);
+  top: 1119px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame6 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.navigation {
+  background: rgba(0, 0, 0, 0.85);
+  width: 200px;
+  height: 63px;
+  position: absolute;
+  left: 850px;
+  top: 1044px;
+}
+.div8 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "MsPGothic-Regular", sans-serif;
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  width: 131.65px;
+  height: 34.5px;
+}
+.border {
+  border-style: solid;
+  border-color: radial-gradient(
+    closest-side,
+    rgba(0, 0, 0, 0.85) 99.99998807907104%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-width: 8px 6px 0px 6px;
+  width: 12px;
+  height: 8px;
+  position: absolute;
+  left: 94px;
+  bottom: -8px;
+}
+.button-navigation {
+  width: 44px;
+  height: 34px;
+  position: absolute;
+  left: 156px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.frame7 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  overflow: visible;
+}
+.button3 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 1137px;
+  top: calc(50% - -527px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+.frame8 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
   overflow: visible;
 }
 
 </style>
-<!-- 스타일 끝
- 
+<!-- 
 
 
 
@@ -713,23 +781,23 @@
 
 
 
--->
+
+
+
+
+
+
+
+
+
+
+
+
+바디디-->
 <body>
-    <div class="main-page">
+  <div class="main">
+  <div class="main-page">
   <div class="rectangle-130"></div>
-  <div class="contents">
-    <div class="div">새 시즌</div>
-    <div class="div2">가격 인하 상품</div>
-    <div class="div3">가격 인하 상품</div>
-    <div class="div4">가격 인하 상품</div>
-    <div class="ellipse-102"></div>
-    <div class="ellipse-103"></div>
-    <div class="ellipse-104"></div>
-    <div class="ellipse-105"></div>
-    <div class="ellipse-106"></div>
-    <div class="ellipse-107"></div>
-    <div class="ellipse-108"></div>
-  </div>
   <div class="header"></div>
   <img class="link-svg" src="link-svg0.svg" />
   <div class="link">
@@ -753,40 +821,41 @@
     </div>
     <div class="horizontal-divider"></div>
   </div>
-  <div class="button">
-    <img class="frame3" src="frame2.svg" />
-  </div>
-  <div class="button2">
-    <img class="frame4" src="frame3.svg" />
-  </div>
-  <div class="navigation">
-    <div class="div5">
-      검색 및 제품 카테고리
-      <br />
-      를 확인할 수 있습니다.
+  <div class="frame-31">
+    <div class="contents">
+      <div class="div">새 시즌</div>
+      <div class="div2">가격 인하 상품</div>
+      <div class="div3">가격 인하 상품</div>
+      <div class="div4">가격 인하 상품</div>
+      <div class="ellipse-102"></div>
+      <div class="ellipse-103"></div>
+      <div class="ellipse-104"></div>
+      <div class="ellipse-105"></div>
+      <div class="ellipse-106"></div>
+      <div class="ellipse-107"></div>
+      <div class="ellipse-108"></div>
     </div>
-    <div class="border"></div>
-    <div class="button-navigation">
-      <img class="frame5" src="frame4.svg" />
+    <div class="frame-17">
+      <div class="women2">WOMEN</div>
+      <img class="vector" src="vector0.svg" />
     </div>
   </div>
-  <div class="button3">
-    <img class="frame6" src="frame5.svg" />
-  </div>
-  <div class="frame-17">
-    <div class="women2">WOMEN</div>
-    <img class="vector" src="vector0.svg" />
-  </div>
-  <img class="frame7" src="frame6.svg" />
+  <img class="frame3" src="frame2.svg" />
   <div class="rectangle-135"></div>
   <img class="rectangle-137" src="rectangle-1370.svg" />
   <div class="rectangle-138"></div>
   <div class="rectangle-139"></div>
-  <div class="_2025">2025</div>
-  <div class="div6">배럴 레그 팬츠</div>
-  <div class="ss">SS 시즌</div>
-  <div class="div7">신상품 보기</div>
-  <img class="image-14" src="image-140.png" />
+  <div class="div5">배럴 레그 팬츠</div>
+  <div class="frame-33">
+    <div class="_2025">2025</div>
+    <div class="ss">SS 시즌</div>
+    <div class="div6">신상품 보기</div>
+  </div>
+  <div class="frame-36">
+  <div class="div">자세히보기</div>
+  <img class="group-19" src="group-190.svg" />
+</div>
+
   <div class="ellipse-133"></div>
   <div class="ellipse-134"></div>
   <div class="ellipse-135"></div>
@@ -798,13 +867,44 @@
   <div class="line-8"></div>
   <div class="line-9"></div>
   <div class="afterhover">
-    <div class="rectangle-136"></div>
-    <div class="div8">시어서커이지팬츠</div>
-    <div class="_29-900">29,900원</div>
-    <div class="ellipse-138"></div>
-    <div class="ellipse-139"></div>
+    <div class="frame-35">
+      <div class="rectangle-136"></div>
+      <div class="frame-34">
+        <div class="div7">시어서커이지팬츠</div>
+        <div class="_29-900">29,900원</div>
+        <div class="ellipse-138"></div>
+        <div class="ellipse-140"></div>
+        <div class="ellipse-139"></div>
+        <div class="ellipse-141"></div>
+        <img class="frame4" src="" />
+      </div>
+    </div>
+  </div>
+  <div class="frame-32">
+    <img class="group-18" src="index_img/ill.png" />
+  </div>
+  <div class="rectangle-193"></div>
+  <div class="button">
+    <img class="frame5" src="frame4.svg" />
+  </div>
+  <div class="button2">
+    <img class="frame6" src="frame5.svg" />
+  </div>
+  <div class="navigation">
+    <div class="div8">
+      검색 및 제품 카테고리
+      <br />
+      를 확인할 수 있습니다.
+    </div>
+    <div class="border"></div>
+    <div class="button-navigation">
+      <img class="frame7" src="frame6.svg" />
+    </div>
+  </div>
+  <div class="button3">
     <img class="frame8" src="frame7.svg" />
   </div>
+</div>
 </div>
 
 </body>
